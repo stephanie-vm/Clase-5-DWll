@@ -1,0 +1,11 @@
+@media(max-width: 767px){
+	.video{
+		width: 100%;
+		padding: 0;
+		float: none;
+	}
+
+	.video + .video{
+		margin-top: 15px;
+	}
+}

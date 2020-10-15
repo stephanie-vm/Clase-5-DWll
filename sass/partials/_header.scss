@@ -1,0 +1,47 @@
+/*HEADER*/
+#logo{
+    float: $izquierda;
+    width: 19%;
+}
+.menu {
+    float:$derecha;
+    width: 68%;
+    position: $relativo;
+    
+}
+.e-mail{
+    font-size: 13px;
+    color:$color3;
+    text-decoration: $listNone;
+    position: $absoluto;
+    top: 0;
+    right: 0;
+}
+//NESTING
+#nav-list{
+    list-style: $listNone;
+	margin: 45px 0 0 0;
+    padding: $padding;
+}
+//NESTING
+#nav-list li{
+    float: $izquierda;
+    /*Remover el margen*/
+    + li{
+        margin-left: 64px;
+    }
+    a{
+        font-size: 12px;
+        font-weight: bold;
+        color: $color4;
+        text-decoration: $listNone;
+        text-transform: $mayuscula;
+    }
+}
+.nav-link-menu{
+    display: none;
+}
+#img-content{
+    max-width: 100%;
+    width: 100%;
+}
