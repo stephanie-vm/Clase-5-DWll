@@ -205,9 +205,9 @@ p {
   right: 100px;
   top: 1280px; }
 
-@media (max-width: 1023px) {
+@media (max-width: 768px) {
   /*Header*/
-  .wraper.space-tablet > div {
+  .wrapper.space-tablet > div {
     padding: 20px 0; }
   #nav-list {
     display: none; }
